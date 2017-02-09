@@ -1,0 +1,24 @@
+[package]
+name = "node"
+version = "0.1.0"
+authors = ["Mads Ynddal <mynddal@me.com>"]
+
+[dependencies]
+ifaces = "0.0.3"
+rustc-serialize = "0.3.18"
+bincode = "0.5.6"
+chrono = "0.2"
+rand = "0.3"
+
+[dependencies.pnet]
+path = "../libpnet"
+version = "0.7.4"
+
+[dependencies.rusqlite]
+path = "../rusqlite"
+version = "0.6.0"
+
+[dependencies.libsqlite3-sys]
+path = "../rusqlite/libsqlite3-sys"
+version = "0.4.0"
+
